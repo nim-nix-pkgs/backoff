@@ -11,7 +11,6 @@
   inputs.src-backoff-master.ref   = "refs/heads/master";
   inputs.src-backoff-master.owner = "CORDEA";
   inputs.src-backoff-master.repo  = "backoff";
-  inputs.src-backoff-master.dir   = "";
   inputs.src-backoff-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
