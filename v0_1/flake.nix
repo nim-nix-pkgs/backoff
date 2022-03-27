@@ -11,6 +11,7 @@
   inputs.src-backoff-v0_1.ref   = "refs/tags/v0.1";
   inputs.src-backoff-v0_1.owner = "CORDEA";
   inputs.src-backoff-v0_1.repo  = "backoff";
+  inputs.src-backoff-v0_1.dir   = "";
   inputs.src-backoff-v0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
