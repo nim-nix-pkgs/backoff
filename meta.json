@@ -7,8 +7,7 @@
   "license": "Apache License 2.0",
   "web": "https://github.com/CORDEA/backoff",
   "refs": [
-    "error: RPC failed; curl 6 Could not resolve host: github.com",
-    "fatal: expected flush after ref listing",
+    "fatal: unable to access 'https://github.com/CORDEA/backoff/': SSL connection timeout",
     ""
   ],
   "heads": []
